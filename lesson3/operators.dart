@@ -1,7 +1,7 @@
 // opperators in dart for comparison
 
 class Number{
-  var y = 10;
+  var y = null;
 }
 
 main(){
