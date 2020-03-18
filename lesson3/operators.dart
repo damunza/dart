@@ -40,8 +40,17 @@ print('\n');
 var n = Number();
 int b;
 
-b = n?.y; // this opperator runs as an if statement that expects one of the values to either be null or an actual number
+b = n?.y ?? 0; // this opperator runs as an if statement that expects one of the values to either be null or an actual number.providing a default value for invalid objects with predetermined variables
 print(b);
 print('\n');
+
+/*
+void main(){
+  int number;
+  print(number ??=100);
+}
+
+The code above generates a null value without the opperator but with the operator the null value changes to 100
+ */
 
 }
