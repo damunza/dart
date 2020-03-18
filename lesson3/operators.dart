@@ -53,4 +53,10 @@ void main(){
 The code above generates a null value without the opperator but with the operator the null value changes to 100
  */
 
+// ternary operator
+
+var x = 100;
+var result = x % 2 == 0 ? 'Even' : 'Odd';
+print(result);
+
 }
