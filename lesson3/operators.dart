@@ -1,4 +1,9 @@
 // opperators in dart for comparison
+
+class Number{
+  var y = 10;
+}
+
 main(){
 var num = 10 + 22;
 num -= 2;
@@ -29,7 +34,14 @@ print(num);
 print('\n');
 }
 
+//null aware
+// (?.), (??), (??=)
 
+var n = Number();
+int b;
 
+b = n?.y; // this opperator runs as an if statement that expects one of the values to either be null or an actual number
+print(b);
+print('\n');
 
 }
