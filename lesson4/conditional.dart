@@ -30,4 +30,8 @@ void main(){
   for(var t in third){
     print(t);
   }
+
+  // for-each loop
+  var four = [1,2,3,4];
+  four.forEach((f) => print(f));
 }
