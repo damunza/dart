@@ -17,4 +17,10 @@ void main(){
     default:
     print('confused');
   }
+
+  // looping
+
+  for (var second= second; second<=10; ++second){
+    print(second)
+  }
 }
