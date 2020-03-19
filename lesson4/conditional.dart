@@ -53,6 +53,9 @@ void main(){
     print(five);
     five -= 1;
   }while(five > 0);
+  print('\n');
+
+  // continue break - continue can be used to ignore the result from a function. break ends the function
 }
 
 void NumberPrinter(num){
