@@ -20,7 +20,14 @@ void main(){
 
   // looping
 
-  for (var second= second; second<=10; ++second){
-    print(second)
+  for (var second=; second<=10; ++second){
+    print(second);
+  }
+
+  // for-in loop
+
+  var third = [1,2,3];
+  for(var t in third){
+    print(t);
   }
 }
