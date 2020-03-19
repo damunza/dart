@@ -9,19 +9,20 @@ void main(){
 
   switch(first){
     case 3:
-    print('start');
+    print('start \n');
     break;
     case 1:
-    print('second');
+    print('second \n');
     break;
     default:
-    print('confused');
+    print('confused \n');
   }
 
   // looping
 
   for (var second=1; second<=10; ++second){
     print(second);
+    print('\n');
   }
 
   // for-in loop
@@ -29,9 +30,16 @@ void main(){
   var third = [1,2,3];
   for(var t in third){
     print(t);
+    print('\n');
   }
 
   // for-each loop
   var four = [1,2,3,4];
   four.forEach((f) => print(f));
+  print('\n');
+  four.forEach(NumberPrinter);
+}
+
+void NumberPrinter(num){
+  print(num);
 }
