@@ -1,7 +1,7 @@
 // collection
 
 void main(){
-  // list defined by List built in method
+// list defined by List built in method
   List first = ['Jack', 'Jill'];
   print(first[0]); // indexes begin from zero
   print('\n');
@@ -18,7 +18,7 @@ void main(){
   -copying lists into lists; [...list being copied]
   */
 
-  // sets {};
+// sets {};
 
 
   /*
@@ -26,4 +26,22 @@ void main(){
   <> {}; define an empty set
   Set <> var = {} ; define an empty list
    */
+
+// map
+
+  var second ={
+    'first': 'one',
+    'second': 'two',
+    'third': 'three'
+  };
+  print(second['first']);
+  print('\n');
+
+  // method two
+  var third = Map();
+  third['first'] = 'mango';
+  print(third['first']);
+  print('\n');
+
+  // method three is like method 1 but done inline
 }
