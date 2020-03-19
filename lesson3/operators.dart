@@ -59,4 +59,10 @@ var x = 100;
 var result = x % 2 == 0 ? 'Even' : 'Odd';
 print(result);
 
+// type test operator
+var type_op = 100;
+if (type_op is int){
+  print('integer');
+}
+
 }
