@@ -20,7 +20,7 @@ void main(){
 
   // looping
 
-  for (var second=; second<=10; ++second){
+  for (var second=1; second<=10; ++second){
     print(second);
   }
 
