@@ -20,4 +20,10 @@ void main(){
 
   // sets {};
 
+
+  /*
+  -empty curly brackets ; identify a hashmap
+  <> {}; define an empty set
+  Set <> var = {} ; define an empty list
+   */
 }
