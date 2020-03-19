@@ -46,6 +46,13 @@ void main(){
     print(five);
     five -= 1;
   }
+  print('\n');
+
+  // version 2
+  do{
+    print(five);
+    five -= 1;
+  }while(five > 0);
 }
 
 void NumberPrinter(num){
