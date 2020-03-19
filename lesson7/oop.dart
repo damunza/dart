@@ -19,11 +19,7 @@ String type;
 String name;
 int teeth;
 
-Animal(String type, String name, [int teeth = 42]){
-  this.type = type;
-  this.name = name;
-  this.teeth = teeth;
-}
+Animal(this.type, this.name, [this.teeth = 42]);
 
 void showAnimal(){
     print(name);
