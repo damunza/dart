@@ -38,6 +38,14 @@ void main(){
   four.forEach((f) => print(f));
   print('\n');
   four.forEach(NumberPrinter);
+
+  // while loop
+  var five = 5;
+
+  while (five > 0){
+    print(five);
+    five -= 1;
+  }
 }
 
 void NumberPrinter(num){
